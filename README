@@ -1,2 +1,6 @@
 Facebook Hackathon 2015
 Todd Davies & Martyn Jacques
+
+This is an application I created alongside Todd Davies (GH: Todd-Davies) at the 2015 Facebook Hackathon at their London officies.
+
+We built a simple server written in Python using the Flask framework (http://flask.pocoo.org), and built a web front end using javascript. 
