@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Facebook:
+https://graph.facebook.com/fql?q=SELECT%20like_count,%20total_count,%20share_count,%20click_count,%20comment_count%20FROM%20link_stat%20WHERE%20url%20=%20%”LINK_GOES_HERE”
+
+Returns:
+"like_count"
+"total_count"
+"share_count"
+"click_count"
+"comment_count"
+
+e.g.
+
+https://graph.facebook.com/fql?q=SELECT%20like_count,%20total_count,%20share_count,%20click_count,%20comment_count%20FROM%20link_stat%20WHERE%20url%20=%20”http://www.umbrello.me”
+
+Returns:
+{
+   "data": [
+      {
+         "like_count": 9,
+         "total_count": 18,
+         "share_count": 7,
+         "click_count": 0,
+         "comment_count": 2
+      }
+   ]
+}
+
+-------------------------------------------------------------------------------
+Twitter:
+http://cdn.api.twitter.com/1/urls/count.json?url=http://www.umbrello.me
+
+{"count":0,"url":"http:\/\/www.umbrello.me\/"}
+
+

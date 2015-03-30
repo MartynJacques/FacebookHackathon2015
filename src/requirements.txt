@@ -1,0 +1,6 @@
+Flask
+requests==2.5.3
+flask-cors
+beautifulsoup4
+Flask-Cache
+mysql-python
